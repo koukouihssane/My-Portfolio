@@ -40,7 +40,7 @@ const ContactCard = () => {
             <Contact
               name="Instagram"
               image="/avatar.png"
-              mediumImage="/instagram.png"
+              mediumImage="/Instagram.png"
               description="@ikoukou.dev"
             />
           </Link>
