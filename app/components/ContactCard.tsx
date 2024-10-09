@@ -20,14 +20,14 @@ const ContactCard = () => {
               description="ihssane_koukou@outlook.com"
             />
           </Link>
-          <Link href="https://wa.me/+212675456170">
+          {/* <Link href="https://wa.me/+212675456170">
             <Contact
               name="Whatsapp"
               image="/avatar.png"
               mediumImage="/whatsapp.webp"
               description="(+212) 675 456 170"
             />
-          </Link>
+          </Link> */}
           <Link href="https://www.linkedin.com/in/ihssane-koukou">
             <Contact
               name="Linkedin"
@@ -36,14 +36,14 @@ const ContactCard = () => {
               description="ihssane-koukou"
             />
           </Link>
-          <Link href="https://www.instagram.com/koukouihssane/">
+          {/* <Link href="https://www.instagram.com/koukouihssane/">
             <Contact
               name="Instagram"
               image="/avatar.png"
               mediumImage="/Instagram.png"
               description="@koukouihssane"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </Section>
