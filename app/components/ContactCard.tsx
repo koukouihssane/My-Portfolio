@@ -11,7 +11,7 @@ const ContactCard = () => {
         <p className="text-primary text-xl gap-2 pb-10 font-semibold">
           I&apos;d love to collaborate! Feel free to reach out anytime.
         </p>
-        <div className="gap-2 flex-col  flex md:grid grid-cols-2 justify-center ">
+        <div className="gap-2 flex-col  flex md:grid grid-cols-2 justify-evenly">
           <Link href="mailto:ihssane_koukou@outlook.com">
             <Contact
               name="Outlook"
@@ -36,14 +36,14 @@ const ContactCard = () => {
               description="ihssane-koukou"
             />
           </Link>
-          {/* <Link href="https://www.instagram.com/koukouihssane/">
+          <Link href="https://www.instagram.com/koukouihssane/">
             <Contact
               name="Instagram"
               image="/avatar.png"
               mediumImage="/Instagram.png"
               description="@koukouihssane"
             />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </Section>
