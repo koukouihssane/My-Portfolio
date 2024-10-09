@@ -36,14 +36,14 @@ const ContactCard = () => {
               description="ihssane-koukou"
             />
           </Link>
-          <Link href="https://www.instagram.com/koukouihssane/">
+          {/* <Link href="https://www.instagram.com/koukouihssane/">
             <Contact
               name="Instagram"
               image="/avatar.png"
               mediumImage="/Instagram.png"
               description="@koukouihssane"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </Section>
