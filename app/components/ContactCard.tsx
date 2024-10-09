@@ -11,7 +11,7 @@ const ContactCard = () => {
         <p className="text-primary text-xl gap-2 pb-10 font-semibold">
           I&apos;d love to collaborate! Feel free to reach out anytime.
         </p>
-        <div className="gap-2 flex-col  flex md:grid grid-cols-2 justify-evenly">
+        <div className="gap-2 flex-col  flex md:grid grid-cols-2 justify-center ">
           <Link href="mailto:ihssane_koukou@outlook.com">
             <Contact
               name="Outlook"
